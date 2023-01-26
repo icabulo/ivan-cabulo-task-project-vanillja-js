@@ -9,6 +9,25 @@
   </head>
   <body>
     <!-- <button class="click-me">Display Alert</button> -->
+    <header>
+      <form action="submit">
+        <input type="text" placeholder="Ingresa tu nueva tarea" />
+        <button type="submit">Add</button>
+      </form>
+    </header>
+    <main>
+      <nav class="task-list">
+        <section>
+          <input type="checkbox" name="tarea" id="tarea-1" />
+          <label for="tarea-1" class="task-title">tarea 1</label>
+        </section>
+        <section>
+          <input type="checkbox" name="tarea" id="tarea-2" />
+          <label for="tarea-2" class="task-title">tarea 2</label>
+        </section>
+      </nav>
+      <button>Delete all done</button>
+    </main>
     <script src="./js/index.js"></script>
   </body>
 </html>
